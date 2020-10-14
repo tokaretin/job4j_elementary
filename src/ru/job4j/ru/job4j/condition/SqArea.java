@@ -2,9 +2,9 @@ package ru.job4j.ru.job4j.condition;
 
 public class SqArea {
     public static double square(int p, int k) {
-        double heighт = p / (2 * (k + 1));
-        double lenght = heighт * k;
-        double rectangle = lenght * heighт;
+        double height = p / (2 * (k + 1));
+        double lenght = height * k;
+        double rectangle = lenght * height;
         return rectangle;
 
     }
