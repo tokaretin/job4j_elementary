@@ -26,7 +26,7 @@ public class Converter {
         boolean passed = expected == out;
         System.out.println("140 rubles are 2. Test result: " + passed);
 
-        int in2 = 180; // Специально сднлал такое значение, чтобы увмдеть false
+        int in2 = 180; // Специально сделал такое значение, чтобы увмдеть false
         int expected2 = 2;
         int out2 = Converter.rubleToDollar(in2);
         boolean passed2 = expected2 == out2;
