@@ -10,18 +10,16 @@ public class DummyBot {
         } else if ("Пока.".equals(question)) { /* заменить ... на проверку, известен ли боту этот вопрос и он знает как на него ответить. */
             /* заменить ... на правильный ответ rsl = "ответ по заданию". */
             rsl = "До скорой встречи.";
-        } else if ("2 + 2 сколько?".equals(question)) {
-            System.out.println("jgvjhvjhvjhvjhv");
         }
         return rsl;
         }
 
     public static void main(String[] args) {
-        String rsl = DummyBot.answer("Привет, Бот");
+        String rsl = DummyBot.answer("Привет, Бот.");
         System.out.println(rsl);
         rsl = DummyBot.answer("Пока.");
         System.out.println(rsl);
-        rsl = DummyBot.answer("2 + 2 сколько7");
+        rsl = DummyBot.answer("Сколько будет 2 + 2?");
         System.out.println(rsl);
     }
 }
