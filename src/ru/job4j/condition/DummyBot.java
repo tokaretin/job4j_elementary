@@ -24,4 +24,5 @@ public class DummyBot {
         rsl = DummyBot.answer("2 + 2 сколько7");
         System.out.println(rsl);
     }
+
 }
