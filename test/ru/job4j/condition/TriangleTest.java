@@ -13,8 +13,20 @@ public class TriangleTest {
     }
 
     @Test
-    public void whenNotExist() {
-        boolean result = Triangle.exist(2.0, 2.0, 2.0);
+    public void whenNotExistA() {
+        boolean result = Triangle.notExistA(2.0, 2.0, 2.0);
+        assertThat(result, is(false));
+    }
+
+    @Test
+    public void whenNotExistB() {
+        boolean result = Triangle.notExistB(2.0, 2.0, 2.0);
+        assertThat(result, is(false));
+    }
+
+    @Test
+    public void whenNotExistC() {
+        boolean result = Triangle.notExistC(2.0, 2.0, 2.0);
         assertThat(result, is(false));
     }
 }
