@@ -7,6 +7,6 @@ public class Triangle {
     }
 
     public static boolean notExist(double ab, double ac, double bc) {
-        return !(ab + ac > bc) && ac + bc > ac && ab + bc > ac;
+        return ab + ac > bc && ac + bc > ac && ab + bc > ac;
     }
 }
