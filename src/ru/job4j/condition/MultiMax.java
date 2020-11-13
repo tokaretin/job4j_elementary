@@ -20,6 +20,7 @@ public class MultiMax {
 }
 
 // Второй вариант с &&
+//  и
 
 //    public static int max(int first, int second, int third) {
 //
