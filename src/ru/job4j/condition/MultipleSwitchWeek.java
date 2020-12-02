@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-import org.graalvm.compiler.serviceprovider.IsolateUtil;
-
 public class MultipleSwitchWeek {
     public static int numofday(String name) {
         return switch(name) {
