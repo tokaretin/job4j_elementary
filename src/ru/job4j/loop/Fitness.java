@@ -9,7 +9,7 @@ public class Fitness {
             nik *= 2;
             System.out.println(month);
         }
-        if (ivan == nik) {
+        if (ivan <= nik) {
             month = 1;
         }
         return month;
