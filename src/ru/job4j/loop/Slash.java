@@ -7,22 +7,22 @@ public class Slash {
                 boolean left = cell == row;
                 boolean right = (row + cell) == (size - 1);
                 if (left) {
-                    System.out.print("0");
+                    System.out.print("%");
                 } else if (right) {
-                  System.out.print("0");
+                  System.out.print("*");
                 } else {
                     System.out.print(" ");
                 }
             }
             System.out.println();
         }
-        System.out.println();
+       System.out.println();
     }
 
     public static void main(String[] args) {
         System.out.println("Draw by 3");
-        draw(3);
-        System.out.println("Draw by 5");
-        draw(5);
+        draw(7);
+//        System.out.println("Draw by 12");
+//        draw(12);
     }
 }
