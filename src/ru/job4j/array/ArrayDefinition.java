@@ -11,15 +11,25 @@ public class ArrayDefinition {
 
         System.out.println();
 
+//        String[] names = new String[4];
+//        names[0] = "Simona";
+//        names[1] = "Ilia";
+//        names[2] = "Lev";
+//        names[3] = "Anastasia";
+//        System.out.println("Размер массива String[] names равен: " + names.length);
+//        System.out.println(names[0]);
+//        System.out.println(names[1]);
+//        System.out.println(names[2]);
+//        System.out.println(names[3]);
+
         String[] names = new String[4];
-        names[0] = "Simona";
-        names[1] = "Ilia";
-        names[2] = "Lev";
-        names[3] = "Anastasia";
-        System.out.println("Размер массива String[] names равен: " + names.length);
-        System.out.println(names[0]);
-        System.out.println(names[1]);
-        System.out.println(names[2]);
-        System.out.println(names[3]);
+        names[0] = "Petr";
+        names[1] = "Ivan";
+        names[2] = "Fedor";
+        names[3] = "Nikolay";
+        for (int index = 0; index < names.length; index++) {
+            System.out.println(names[index]);
+
+        }
     }
 }
