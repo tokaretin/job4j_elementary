@@ -8,6 +8,7 @@ public class ArrayDefinition {
         System.out.println("Размер массива short[] ages равен: " + ages.length);
         System.out.println("Размер массива String[] surnames равен: " + surnames.length);
         System.out.println("Размер массива float[] prices равен: " + prices.length);
+
         System.out.println();
 
         String[] names = new String[4];
