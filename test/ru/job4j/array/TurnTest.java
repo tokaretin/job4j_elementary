@@ -27,4 +27,11 @@ public class TurnTest {
         int[] result = Turn.back(input);
         int[] expect = new int[]{234, 244, 34, 24, 33};
     }
+
+    @Test
+    public void whenTurnArrayWithOddAmount0Of44ElementsThenTurnedArray() {
+        int[] input = new int[]{1, 2, 7, 6};
+        int[] result = Turn.back(input);
+        int[] expect = new int[]{6, 7, 2, 1};
+    }
 }
