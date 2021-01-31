@@ -7,7 +7,7 @@ public class ReverseLoopForArray {
             //System.out.println(numbers[numbers.length - 1 - i]);
             int temp = numbers[numbers.length - 1 - i];
             if (temp % 2 == 0) {
-                System.out.println(temp);
+                System.out.println(numbers[temp]);
             }
         }
     }
