@@ -11,4 +11,15 @@ public class FindLoop {
         }
         return rst;
     }
+
+    public static int indexOff(int[] data, int el, int start, int finish) {
+        int rst = -1; // Если не элемента в мвссиве то возвращаем -1
+        for (int i = start; i <= finish; i++) {
+            if (data[i] == el) {
+                rst = i;
+                break;
+            }
+        }
+        return rst;
+    }
 }
