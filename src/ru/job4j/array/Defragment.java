@@ -13,14 +13,6 @@ public class Defragment {
                             array[i] = temp;
                             break;
                         }
-
-//                    while (point < array.length) {
-//                        if (array[point] != null) {
-//                            String temp = array[point];
-//                            array[point] = array[i];
-//                            array[i] = temp;
-//                            break;
-//                        }
                         point++;
                     }
             }
