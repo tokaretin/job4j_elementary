@@ -28,4 +28,11 @@ public class Merge {
         }
         return rsl;
     }
+// O(1) - constsnt (Константная сложность)
+    public static void main(String[] args) {
+        int[] left = {1, 3, 7};
+        int[] right = {2, 4};
+        int[] rsl = merge(left, right);
+        System.out.println(Arrays.toString(rsl));
+    }
 }
