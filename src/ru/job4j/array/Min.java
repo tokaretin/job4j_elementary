@@ -6,16 +6,8 @@ public class Min {
         for (int i = 0; i < array.length; i++) {
             if (array[i] < min) {
                 min = array[i];
-//            if (min < array[1]) {
-//                return min;
-//                }
-//                if (array[1] < array[2]) {
-//                    min = array[1];
-//                }
-//                if (array[2] < array[1]) {
-//                    min = array[2];
             }
         }
-                return min;
-            }
-        }
+        return min;
+    }
+}

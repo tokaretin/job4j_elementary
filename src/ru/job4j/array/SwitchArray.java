@@ -21,14 +21,11 @@ public class SwitchArray {
         for (int i = 0; i < rsl.length; i++) {
             System.out.println(rsl[i]);
         }
-
         System.out.println();
-
         int[] num = new int[] {1, 2, 3, 4};
         int[] result = swap(num, 0, num.length - 1);
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
-
         }
     }
 }

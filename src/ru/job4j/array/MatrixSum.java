@@ -13,8 +13,8 @@ public class MatrixSum {
     }
 }
 
-/*
-// сумма всех элементов в массиве
+/**
+* сумма всех элементов в массиве
 public class MatrixSum {
     public static void main(String[] args) {
         int[][] array = {
@@ -32,7 +32,6 @@ public class MatrixSum {
         }
     }
 }
-
 */
 
 

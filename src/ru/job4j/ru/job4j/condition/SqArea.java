@@ -6,7 +6,6 @@ public class SqArea {
         double lenght = height * k;
         double rectangle = lenght * height;
         return rectangle;
-
     }
 
     public static void main(String[] args) {

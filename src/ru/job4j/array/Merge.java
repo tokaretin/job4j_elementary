@@ -28,7 +28,11 @@ public class Merge {
         }
         return rsl;
     }
-// O(1) - constsnt (Константная сложность)
+
+    /** O(1) - constsnt (Константная сложность)
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         int[] left = {1, 3, 7};
         int[] right = {2, 4};

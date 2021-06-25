@@ -22,7 +22,5 @@ public class Slash {
     public static void main(String[] args) {
         System.out.println("Draw by 3");
         draw(7);
-//        System.out.println("Draw by 12");
-//        draw(12);
     }
 }

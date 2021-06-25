@@ -1,6 +1,5 @@
 package ru.job4j.calculate;
 
-// Давайте потренируемся.
 public class Variables {
     public static void main(String[] args) {
         byte mem = 1;
@@ -17,8 +16,6 @@ public class Variables {
         System.out.println(distance);
         char gender = 'Y';
         System.out.println(gender);
-
-        // задание 0. Что такое переменная. [#382922]
         int age = 18;
         System.out.println(age);
         float lenght = 78.1F;
