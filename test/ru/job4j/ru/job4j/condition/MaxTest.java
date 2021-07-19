@@ -1,8 +1,8 @@
 package ru.job4j.ru.job4j.condition;
 
 import org.junit.Test;
+import ru.job4j.condition.Max;
 
-import static org.junit.Assert.*;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

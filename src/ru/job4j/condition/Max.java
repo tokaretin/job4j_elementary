@@ -1,4 +1,4 @@
-package ru.job4j.ru.job4j.condition;
+package ru.job4j.condition;
 
 public class Max {
     public static int max(int x1, int x2) {
